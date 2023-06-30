@@ -48,3 +48,8 @@ body{
 .navbar .dropdown-menu a.dropdown-item:hover {
   background-color: black;
 }
+
+.footer-link {
+  color: grey;
+  text-decoration: none;
+}
