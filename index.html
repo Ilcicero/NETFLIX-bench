@@ -113,22 +113,51 @@
     </nav>
     <!-- BARRA INUTILE -->
     <div class="container ms-0 text-start my-2 d-flex align-items-center">
-      <h2>TV Shows</h2>
+      <div class="container d-flex">
+        <h2>TV Shows</h2>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle ms-3 border border-white rounded-0"
+            type="button"
+            data-bs-toggle="dropdown"
+            style="background-color: inherit"
+          >
+            Genres
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#">Opzione 1</a></li>
+            <li><a class="dropdown-item" href="#">Opzione 2</a></li>
+            <li><a class="dropdown-item" href="#">Opzione 3</a></li>
+          </ul>
+        </div>
+      </div>
 
-      <div class="dropdown">
-        <button
-          class="btn btn-primary dropdown-toggle ms-3 border border-white rounded-0"
-          type="button"
-          data-bs-toggle="dropdown"
-          style="background-color: inherit"
+      <!-- ICONE REDUCE -->
+      <div class="container text-end">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-layout-split"
+          viewBox="0 0 16 16"
         >
-          Genres
-        </button>
-        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <li><a class="dropdown-item" href="#">Opzione 1</a></li>
-          <li><a class="dropdown-item" href="#">Opzione 2</a></li>
-          <li><a class="dropdown-item" href="#">Opzione 3</a></li>
-        </ul>
+          <path
+            d="M0 3a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3zm8.5-1v12H14a1 1 0 0 0 1-1V3a1 1 0 0 0-1-1H8.5zm-1 0H2a1 1 0 0 0-1 1v10a1 1 0 0 0 1 1h5.5V2z"
+          />
+        </svg>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          class="bi bi-grid"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"
+          />
+        </svg>
       </div>
     </div>
     <!-- CAROSELLI STREET -->
@@ -139,47 +168,23 @@
           <div class="carousel-item active">
             <div class="row row-cols-1 row-cols-md-1 row-cols-lg-12 g-1">
               <div class="col-6 col-md-6 col-lg">
-                <img
-                  src="assets/media/media0.webp"
-                  class="d-block w-100"
-                  alt="Immagine 1"
-                />
+                <img src="assets/media/media0.webp" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg">
-                <img
-                  src="assets/media/media1.jpg"
-                  class="d-block w-100"
-                  alt="Immagine 2"
-                />
+                <img src="assets/media/media1.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media2.webp"
-                  class="d-block w-100"
-                  alt="Immagine 3"
-                />
+                <img src="assets/media/media2.webp" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media3.webp"
-                  class="d-block w-100"
-                  alt="Immagine 4"
-                />
+                <img src="assets/media/media3.webp" class="d-block w-100" />
               </div>
 
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media4.jpg"
-                  class="d-block w-100"
-                  alt="Immagine 5"
-                />
+                <img src="assets/media/media4.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media5.webp"
-                  class="d-block w-100"
-                  alt="Immagine 6"
-                />
+                <img src="assets/media/media5.webp" class="d-block w-100" />
               </div>
             </div>
           </div>
@@ -210,47 +215,23 @@
           <div class="carousel-item active">
             <div class="row row-cols-sm-2 row-cols-md-2 row-cols-lg-12 g-1">
               <div class="col-6 col-md-6 col-lg">
-                <img
-                  src="assets/media/media0.webp"
-                  class="d-block w-100"
-                  alt="Immagine 1"
-                />
+                <img src="assets/media/media6.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg">
-                <img
-                  src="assets/media/media1.jpg"
-                  class="d-block w-100"
-                  alt="Immagine 2"
-                />
+                <img src="assets/media/media7.webp" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media2.webp"
-                  class="d-block w-100"
-                  alt="Immagine 3"
-                />
+                <img src="assets/media/media8.webp" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media3.webp"
-                  class="d-block w-100"
-                  alt="Immagine 4"
-                />
+                <img src="assets/media/media9.jpg" class="d-block w-100" />
               </div>
 
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media4.jpg"
-                  class="d-block w-100"
-                  alt="Immagine 5"
-                />
+                <img src="assets/media/media10.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media5.webp"
-                  class="d-block w-100"
-                  alt="Immagine 6"
-                />
+                <img src="assets/media/media20.jpg" class="d-block w-100" />
               </div>
             </div>
           </div>
@@ -281,47 +262,23 @@
           <div class="carousel-item active">
             <div class="row g-1">
               <div class="col-sm-6 col-md-6 col-lg-2">
-                <img
-                  src="assets/media/media0.webp"
-                  class="d-block w-100"
-                  alt="Immagine 1"
-                />
+                <img src="assets/media/media11.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg">
-                <img
-                  src="assets/media/media1.jpg"
-                  class="d-block w-100"
-                  alt="Immagine 2"
-                />
+                <img src="assets/media/media12.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media2.webp"
-                  class="d-block w-100"
-                  alt="Immagine 3"
-                />
+                <img src="assets/media/media13.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media3.webp"
-                  class="d-block w-100"
-                  alt="Immagine 4"
-                />
+                <img src="assets/media/media14.webp" class="d-block w-100" />
               </div>
 
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media4.jpg"
-                  class="d-block w-100"
-                  alt="Immagine 5"
-                />
+                <img src="assets/media/media15.jpg" class="d-block w-100" />
               </div>
               <div class="col-6 col-md-6 col-lg d-sl-none">
-                <img
-                  src="assets/media/media5.webp"
-                  class="d-block w-100"
-                  alt="Immagine 6"
-                />
+                <img src="assets/media/media16.webp" class="d-block w-100" />
               </div>
             </div>
           </div>
