@@ -1,0 +1,50 @@
+/* FACCIO SPARIRE LE ICONE DAL DROPDOWN QUANDO PASSA A MOBILE CHE PARE BRUTTO */
+
+@media (max-width: 992px) {
+  .mobile-hide {
+    display: none;
+  }
+
+}
+
+/* CAROSELLO STREET */
+
+.testoCaro{
+  text-align: left;
+}
+
+.carousel-item img {
+  object-fit: cover;
+  height: 100px;
+  width: 350px;
+  
+}
+body{
+  background-color: black;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color: #000000;
+}
+
+.navbar a.nav-link {
+  color: #ffffff;
+}
+
+.navbar .navbar-brand img {
+  filter: invert(100%);
+}
+
+.navbar .dropdown-menu {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.navbar .dropdown-menu a.dropdown-item {
+  color: #ffffff;
+}
+
+.navbar .dropdown-menu a.dropdown-item:hover {
+  background-color: black;
+}
