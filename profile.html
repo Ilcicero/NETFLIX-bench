@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="assets/style.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-5 w-50">
       <div class="container-fluid">
         <img src="assets/netflix_logo.png" alt="Logo" height="40" />
       </div>
@@ -23,10 +23,11 @@
       <div class="card text-center bg-black text-light">
         <div class="card-header">
           <h2>Edit Profile</h2>
+          <div class="w-100 bg-light">&nbsp;</div>
         </div>
         <br />
-        <div class="card-body">
-          <div class="row justify-content-center align-items-center">
+        <div class="card-body mb-5">
+          <div class="row justify-content-start align-items-start">
             <div class="col-md-4 g-2">
               <img
                 src="assets/avatar.png"
@@ -40,26 +41,73 @@
                 Strive Student
               </div>
               <div class="text-bg-black p-0 text-start">Language:</div>
-              <div class="btn-group">
-                <div class="row align-content-start">
-                  <div class="dropdown">
-                    <button
-                      class="btn btn-primary dropdown-toggle ms-3 border border-white rounded-0"
-                      type="button"
-                      data-bs-toggle="dropdown"
-                      style="background-color: inherit"
-                    >
-                      English
-                    </button>
-                    <ul
-                      class="dropdown-menu"
-                      aria-labelledby="dropdownMenuButton"
-                    >
-                      <li><a class="dropdown-item" href="#">Italian</a></li>
-                      <li><a class="dropdown-item" href="#">Spanish</a></li>
-                      <li><a class="dropdown-item" href="#">Furlan</a></li>
-                    </ul>
-                  </div>
+
+              <div class="row align-content-start mb-4">
+                <div class="dropdown justify-content-start">
+                  <button
+                    class="btn btn-primary dropdown-toggle ms-3 border border-white rounded-0"
+                    type="button"
+                    data-bs-toggle="dropdown"
+                    style="background-color: inherit"
+                  >
+                    English
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton"
+                  >
+                    <li><a class="dropdown-item" href="#">Italian</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish</a></li>
+                    <li><a class="dropdown-item" href="#">Furlan</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="w-100 bg-light">&nbsp;</div>
+
+              <!-- seconda BR -->
+              <div class="container text-start">
+                <div class="row-cols-2">
+                  <span class="my-2">Maturity Settings:</span>
+                </div>
+                <div class="col-md-12">
+                  <div class="text-bg-dark my-2">All maturity rating</div>
+                </div>
+                <div class="text-bg-black my-2 text-start">
+                  Show titles of Maturity rating for this profile.
+                </div>
+              </div>
+              <button type="button" class="btn btn-outline-secondary mb-1">
+                EDIT
+              </button>
+            </div>
+            <!-- TERZA BR -->
+            <div class="w-100 bg-light">&nbsp;</div>
+            <div class="container text-center">
+              <h4>Autoplay Controls</h4>
+              <div class="row-cols-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckIndeterminate"
+                  />
+                  <label class="form-check-label" for="flexCheckIndeterminate">
+                    Autoplay all controls when a playlist laydown
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckIndeterminate"
+                  />
+                  <label class="form-check-label" for="flexCheckIndeterminate">
+                    Autoplay tunes thenyfy very well day devices
+                  </label>
                 </div>
               </div>
             </div>
